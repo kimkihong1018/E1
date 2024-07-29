@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+#wrap {
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.logo {}
+
+.logo a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/01_로고/로고.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+.nav {
+    /* width: 180px;
+    margin: 0 auto; */
+}
+
+.main_menu {
+    width: 160px;
+    margin: 30px auto;
+}
+
+.main_menu>li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main_menu>li>a {
+    display: block;
+    height: 30px;
+    background-color: lightcoral;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.main_menu>li:hover>a {
+    background-color: rgb(214, 75, 75);
+}
+
+.sub {
+    display: none;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.sub li {
+    text-align: center;
+}
+
+.sub li a {
+    display: block;
+    height: 20px;
+    background-color: thistle;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+
+.sub li:hover a {
+    background-color: rgb(255, 175, 255);
+}
+
+.spot_menu {
+    text-align: center;
+    width: 160px;
+    margin: 10px auto;
+}
+
+
+.border {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+
+.spot_menu a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+
+.middle {
+    width: 400px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.banner{
+    /* background-color: red; */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid gray; */
+}
+
+.container{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+.b_left{
+    width: 20%;
+    height: 100%;
+    background: url(../img/03-콘텐츠영역이미지/markus-winkler-xMS2XmKwV2U-unsplash.jpg) no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px;
+}
+.b_center{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b_center h3{
+    color: white;
+}
+.b_center p{
+    width: 100%;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+}
+
+.b_right{
+    width: 10%;
+    background: url(../img/03-콘텐츠영역이미지/arrow.png) no-repeat center center;
+    text-indent: -9999px;
+}
+
+
+.notice{
+    height: 30%;
+    /* background-color: blue; */
+}
+
+.notice h2{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.notice ul{
+    height: 70%;
+    border-top: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.notice ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.notice ul li a{
+    width: 70%;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.notice ul li span{}
+
+
+.gallery{
+    height: 30%;
+    /* background-color: pink; */
+    padding: 20px;
+}
+
+.gallery h2{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.gallery ul{
+    height: 70%;
+    border-top: 5px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.gallery ul li{
+    height: 90%;
+    width: 45%;
+}
+
+.gallery ul li a{
+    display: block;
+    height: 80% ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-indent: -99999px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.g_1 a{
+    background-image: url(../img/03-콘텐츠영역이미지/markus-winkler-xMS2XmKwV2U-unsplash.jpg);
+}
+.g_2 a{
+    background-image: url(../img/03-콘텐츠영역이미지/portuguese-gravity-Gj0imgIk-qo-unsplash.jpg);
+}
+
+.gallery ul li span{
+    margin-top: 10px;
+}
+
+
+.link{
+    height: 20%;
+    /* background-color: orange; */
+    padding: 20px;
+}
+
+.link ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.link ul li{
+    width: 23%;
+    height: 80%;
+}
+.link ul li a{
+    display: block;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+    text-indent: -9999px;
+    box-shadow: 1px 1px 5px gray;
+}
+.link ul li span{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link ul li.link1 a{background-image: url(../img/03-콘텐츠영역이미지/building.png);}
+.link ul li.link2 a{background-image: url(../img/03-콘텐츠영역이미지/map.png);}
+.link ul li.link3 a{background-image: url(../img/03-콘텐츠영역이미지/warning.png);}
+.link ul li.link4 a{background-image: url(../img/03-콘텐츠영역이미지/telephone-call.png);}
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    width: calc(100% - 600px);
+    background-color: yellow;
+}
+
+
+
+#bottom {
+    width: 100%;
+    height: 120px;
+    /* background-color: green; */
+    display: flex;
+}
+
+
+.f_logo {
+    width: 200px;
+    height: 100%;
+    background-color: bisque;
+}
+
+.f_right {
+    width: calc(100% - 200px);
+    background-color: violet;
+}
